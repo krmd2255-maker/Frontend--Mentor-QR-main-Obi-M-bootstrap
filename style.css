@@ -2,63 +2,16 @@
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 
-/* Style the page */
+/* Page background */
+.qr-page {
+    background-color: #D5E1EF; }
 
-body {
-    background-color: #D5E1EF;
-    font-family: Arial, sans-serif;
-
-    min-height: 100vh;    display: flex;
-    flex-direction: column;    align-items: center;
-}
-
-
-/* Position MainContent */
-
-
-main {
-    width: 100%;
-    flex: 1; 
-    display: flex;    justify-content: center;
-    align-items: center;
-}
-
-
-/* Styling the QR Code card */
- 
 
 .qr-card {
-    background-color: white;
-
-    width: 320px;     padding: 16px;
-
-    border-radius: 20px; }
+    width: 100%;     max-width: 385px; }
 
 
+ 
 
-    /* Style QR Code Image */
-
-.qr-card img {
-    width: 100%;     height: auto;
-
-    display: block;     border-radius: 10px; }
-
-
-
-
-.attribution {
-    font-size: 0.6875rem;
-    text-align: center;
-    padding: 12px;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
